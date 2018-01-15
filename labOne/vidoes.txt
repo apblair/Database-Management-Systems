@@ -1,0 +1,24 @@
+FilmDetail(movie_id, title, description, rating, length)
+	Primary Key: (movie_id) INT
+	(title) CHAR
+	(description) CHAR
+	(rating) CHAR
+	(length) CHAR
+	
+
+customerDetail(customer_id, address_id, first, last, email)
+	Unique Key: (customer_id) INT
+	(address_id) INT
+	(first) CHAR
+	(last) CHAR
+	(email) CHAR
+	
+	
+customerAddress(address_id, customer_id, street, city, state, postal_code, phone_number)
+	Primary Key: (address_id) INT
+	(customer_id) INT
+	(phone_number) CHAR
+	(street) CHAR
+	(city)	CHAR
+	(state)	CHAR
+	(postal_code) CHAR

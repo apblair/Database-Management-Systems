@@ -1,0 +1,16 @@
+bookDetail (book_id, title, author_id)
+	Primary Key: (book_id) INT
+	(author_id) INT
+	(title) CHAR
+
+bookAuthor (author_id, first_name, last_name)
+	Unique Key: (author_id) INT
+	(first_name) CHAR
+	(last_name) CHAR
+
+
+bookPurchaser (customer_id, first_name, last_name, phone_number)
+	Primary Key: (customer_id) INT
+	(first_name) CHAR
+	(last_name) CHAR
+	(phone_number) CHAR
